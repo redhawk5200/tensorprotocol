@@ -1,0 +1,143 @@
+.header .navbar .left-side-menu a img {
+    max-width: 135px;
+}
+
+.strip {
+    margin-top: 0;
+}
+
+.hero-section .right .scroll {
+    top: 85%;
+}
+
+.featuress {
+    padding: 40px 0;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vision .left .supply {
+    margin: 0;
+    padding: 14px 30px;
+}
+
+.vision .left .supply p {
+    border: none !important;
+}
+
+.vision .right img {
+    border-radius: 10px;
+}
+
+.featuress img {
+    border-radius: 10px;
+}
+
+#map {
+    margin-top: -130px;
+}
+
+.join img {
+    border-radius: 10px;
+    width: 90%;
+}
+
+section.join {
+    padding: 30px 0;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.join a.btn img {
+    width: 40px;
+}
+
+.advertisee .coll {
+    width: 50%;
+}
+
+.advertisee {
+    flex-direction: row-reverse;
+}
+
+.advertisee .coll:nth-child(2) {
+    margin-right: 20px;
+}
+.header .navbar .left-side-menu {
+    width: 20%;
+}
+
+.center-menu {
+    width: 80%;
+}
+
+@media (max-width: 500px) {
+    .header .navbar .left-side-menu {
+        width: 30%;
+    }
+    
+    .center-menu {
+        width: 80%;
+        padding-bottom: 30px !important;
+    }
+    
+    .center-menu.active {
+        margin-top: 36px;
+    }
+    
+    .center-menu a li{
+        font-size: 14px !IMPORTANT;
+    }
+    .hero-section .right .scroll {
+        visibility: hidden;
+    }
+
+    .hero-section {
+        padding-top: 100px;
+    }
+
+    .about .left img {
+        display: none;
+    }
+
+    #feature {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #feature p {
+        padding-bottom: 20px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    .advertisee {
+        flex-direction: column;
+    }
+
+    .advertisee .coll {
+        width: 100%;
+        text-align: center;
+    }
+
+    #map {
+        margin-top: 0;
+    }
+
+    .road-wrap p {
+        padding: 0;
+    }
+
+    section.join {
+        width: 100%;
+    }
+}
